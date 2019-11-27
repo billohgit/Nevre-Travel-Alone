@@ -34,6 +34,7 @@ public class myposts extends AppCompatActivity {
     Toolbar toolbar;
 
 
+    /// This method takes care of sending post object to PostList helper class so that it can print values in listView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

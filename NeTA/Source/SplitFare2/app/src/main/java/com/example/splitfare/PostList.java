@@ -27,12 +27,14 @@ public class PostList extends ArrayAdapter<Post> {
     String bclr,tclr;
     int count=0;
 
+    /// Constructor to initiliase context and post object
     public PostList(Activity context, List<Post> artists) {
         super(context, R.layout.list_layout, artists);
         this.context = context;
         this.posts = artists;
     }
 
+    /// This method sets the textviews of ListView to appropriate values
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
         View listViewItem = inflater.inflate(R.layout.list_layout, null, true);

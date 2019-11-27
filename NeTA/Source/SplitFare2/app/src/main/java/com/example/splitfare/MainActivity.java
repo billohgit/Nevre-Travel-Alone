@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     String uid;
     DatabaseReference databaseposts;
 
+    /// This method is started on activity created
+    /// This activity is used to initialise all variables and signup the user
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -47,6 +47,9 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     NavigationView navigationView;
     Toolbar toolbar;
     FirebaseUser curuser;
+
+    /// This method runs when the activity starts
+    /// It takes care of toolbar,navigation drawer and listviews
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +90,9 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         });*/
     }
 
+
+    /// This Method is called when the activity actually starts running
+    /// This takes care of displaying all posts of other users
 
     @Override
     protected void onStart() {
@@ -140,6 +146,8 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
 
     }
 
+    /// This method is used to listen for Navigation drawer items
+    /// It gives onclick listeners for all the items present in navigation drawer
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         int id = menuItem.getItemId();

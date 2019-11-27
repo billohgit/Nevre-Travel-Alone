@@ -22,6 +22,8 @@ public class Post implements Serializable{
     private String useremail;
     private ArrayList<String> comments = new ArrayList<String>();
 
+    /// Setters and Getters are initialised for all variables
+
     public ArrayList<String> getList(){
         return comments;
     }

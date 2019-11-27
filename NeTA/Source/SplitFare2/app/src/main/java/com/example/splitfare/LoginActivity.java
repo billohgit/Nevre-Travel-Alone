@@ -30,6 +30,8 @@ public class LoginActivity extends AppCompatActivity {
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
+    /// This activity is invoked when Activity is created
+    /// It takes care of initailising all id elements in the activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +57,8 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         };
+
+        /// OnCLick listener for login function
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,6 +106,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    /// This activity is invoked when the acitivity starts
+    /// Checks for users login
 
     @Override
     protected void onStart() {

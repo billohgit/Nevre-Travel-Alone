@@ -1,0 +1,144 @@
+
+\documentclass[12pt, a4paper]{article}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\usepackage{fullpage}
+\usepackage{times}
+\usepackage{fancyhdr,graphicx,amsmath,amssymb}
+\usepackage[linesnumbered,lined,boxed,commentsnumbered]{algorithm2e}
+\include{pythonlisting}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[babel,style=american]{csquotes}
+\usepackage{url}
+\usepackage{bookman}
+\usepackage{titling}
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{changepage}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+\renewcommand{\baselinestretch}{1.2}
+
+
+\title{\textbf{Software Lab \\ Project Report for\\NeTA }}
+\author{\\Vineeth Sai - 193050031\\Jayabrata Das - 193050085\\Billoh Gassama - 193051001}
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\section{Introduction}
+\paragraph{}
+This is a project report for an android app named Never Travelled Alone(NeTA). As the name suggests, this app helps its users to find companions to shear their ride.  This app allows first time users to create an account whilst old users are allowed to sign in with their credentials and create a post about their journey with details like source, destination, mode of travel, starting time, etc. Users can also check the posts of other users to find one that matches their requirements. Once one finds a matching post, he/she can communicate with the creator of the post for further details.
+Finally, if both parties agree then, they can meet at someplace to start the journey. 
+\\
+\\
+\\
+\section{Motivation}
+\paragraph{}
+Today most students finds it very difficult to have a common platform to share information about booking a cab irrespective of the distance. 
+The initiative behind this project is as a result of the increasing price of fuel,which also causes the cost of rides to increase drastically.
+It is against these backdrops that we deemed it necessary to help solve these problems by developing the NeTA app.
+NeTA will help you in such situations as mentioned above,if one has to book a ride alone for him or herself, then their will be an  increase in cost. This cost can easily be reduced by sharing the ride with others. But most of the time, it is very difficult to find such companions. And because of this most people have to hire a ride alone.
+This app solves such problems by connecting people who are going to the same place or nearby location. Thus it does not only helps people to save money but also reduces the use of fuel by reducing the number of rides.
+
+\newpage
+\section{User Guide}
+\paragraph{}
+This section gives a brief description of application and instructions for the users to use this app. Following are the description of different activities of the app.
+\subsection{Sign Up}
+To use the app one have to sign up in the app with a valid email address and a secure password. The email address has to be a valid one and the password has to have at least 6 characters to sign up successfully. Also the email address must not already has an account, in that case one can simply sign in with existing mail address and password by clicking on the "Sign in here" text at the bottom of the screen.
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=6cm]{"SignUpPage".jpeg}
+    \caption{Sign Up Page}
+\end{figure}
+\newpage
+\subsection{Sign In}
+\paragraph{}
+It is the first page that appears when the app starts. One can sign in using the registered email address and password, after successfully signing up. This is necessary for authentication purpose and also to stare data in server. If either of the email address or the password is wrong the app shows an error message. One can go to the sign up page by clicking on the "Sign up here" text at the bottom of the screen. 
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=7cm]{"SignInPage".jpeg}
+    \caption{Sign In Page}
+\end{figure}
+\newpage
+\subsection{Home Page}
+\paragraph{}
+This is the most important tab in the app. It shows all the requests posted by other users in form of a list. Each post shows the Source and destination only so that one can check easily whether the post matches with their requirement. If one finds any post interesting then he/she can get the details information about the post. This tab does not show the requests posted by the account which is logged in currently, there is a different tab for it.
+\\
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=7cm]{"HomePage".jpeg}
+    \caption{Home Page \& List of Posts of other users}
+\end{figure}
+\newpage
+\subsubsection{View Details}
+\paragraph{}
+This page appears when clicked on view details button under a post in the home tab. It shows the details information about the post like - time and date of departure, number of seats available and contact info of the creator of the post. Here also one can put any message against the post to its creator and the creator's messages are also shown here. So it kind of work as a chat box where anyone can communicate with the creator of the post.
+\\
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=7cm]{"ReplytoPost".jpeg}
+    \caption{View Details \& message box}
+\end{figure}
+\newpage
+\subsection{Navigation Drawer}
+\paragraph{}
+At the top left corner of the home tab there are three small horizontal lines clicking on which brings up  navigation drawer. The navigation drawer contains the following options - 
+\subsubsection{Add Post}
+\paragraph{}
+This tab allows users to create a new post just by filling up the simple form. A post consists of the following information -
+\begin{multicols}{2}
+\begin{itemize}
+\item Name (post creator)
+\item Source
+\item Destination
+\item Number of Person needed
+\item Mode of Transport
+\item Departure Date
+\item Departure Time
+\item Contact Number
+ \end{itemize}
+ \end{multicols}
+ \begin{figure}[htp]
+    \centering
+    \includegraphics[width=5.5cm]{"AddPost".jpeg}
+    \caption{Create Post Form}
+\end{figure}
+\newpage
+\subsubsection{My Post}
+\paragraph{}
+As mentioned earlier, once logged in, one can find his/her own created posts in this tab. It is similar to the home tab except here only own created posts are shown.
+\\
+ \begin{figure}[htp]
+    \centering
+    \includegraphics[width=6cm]{"MyPost".jpeg}
+    \caption{Show My Post List}
+\end{figure}
+\subsubsection{Log Out}
+\paragraph{}
+Using this option one can log out of his/her account safely. Once logged out, one have to login again to use this app. However, if not logged out, one will be navigated to the home tab on restarting the app.
+
+\newpage
+\section{How is your project useful at the end of this course?}
+\paragraph{}
+This project can be considered as the climax of the Software Lab (CS699) course that requires us to apply all the knowledge that we have gained in this course through out this semester. In the lab we have been taught all the basic software skills that are essential for any software engineer. We have also learn the process of fast learning through the challenging assignments and the skill of group work. This project sums up all these knowledge and experiences. It also give us the opportunity to evaluate ourselves by testing how we can apply our knowledge, as well as, learn new things that are necessary in order to complete this project. Finally, it gives us the chance to showcase our creativity and productivity by implementing some application with social benefit.
+
+
+
+\section{What have you implemented that works really well? - Real Time Database}
+\paragraph{}
+We have used real time database to store the user data, as well as, the post data. If we would have used local server to store data then, it would have reduced the speed of the data update and retrieve process. Compared to that real time database is very fast. Moreover, it is online database which is available 24x7 without any performance issue. 
+
+
+
+
+
+\end{document}

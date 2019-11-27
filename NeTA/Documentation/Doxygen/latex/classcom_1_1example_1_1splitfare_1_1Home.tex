@@ -1,0 +1,158 @@
+\hypertarget{classcom_1_1example_1_1splitfare_1_1Home}{}\doxysection{com.\+example.\+splitfare.\+Home Class Reference}
+\label{classcom_1_1example_1_1splitfare_1_1Home}\index{com.example.splitfare.Home@{com.example.splitfare.Home}}
+Inheritance diagram for com.\+example.\+splitfare.\+Home\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1example_1_1splitfare_1_1Home}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a25182f5bfd430e51728a879d7c25af89}{on\+Navigation\+Item\+Selected}} (@Non\+Null Menu\+Item menu\+Item)
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a4932a7dae18e16ed815cea4b6824bb6a}{on\+Back\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Method defining Action to be taken when back button is pressed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a85bb057f0e61463a3245aae61c527522}{on\+Create}} (Bundle saved\+Instance\+State)
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a880726487fa18ca5d3b625a5f320e30c}{on\+Start}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_af010938a9faa4147ed7ea105a81c0c9d}{list\+View\+Posts}}
+\item 
+Database\+Reference \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_aece062154abc8b3dbb69edbee5c3064e}{databaseposts}}
+\item 
+Database\+Reference \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a829d09d22bf12f8d7af5595c1dd59daf}{databaseusers}}
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Post}{Post}} $>$ \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_ab1bde32f3ad2ddbc193a73312c7ea7e4}{posts}}
+\item 
+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_af0a83c5452cd3d53f829ea8e65596775}{users}}
+\item 
+Drawer\+Layout \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a0a399b1ff7c04fcd32c2241194df9314}{drawer\+Layout}}
+\item 
+Navigation\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a6a16393bff96604fa06deb0482b1f345}{navigation\+View}}
+\item 
+Toolbar \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_af9f4c3f00225cdb2fc60d9e06b30821c}{toolbar}}
+\item 
+Firebase\+User \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_ad0eba56e270e4725dc1fa5cfd7dca21b}{curuser}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Firebase\+Auth.\+Auth\+State\+Listener \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_a5814eb786f3c15b745d91802a2d5d839}{m\+Auth\+State\+Listener}}
+\item 
+Firebase\+Auth \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home_ab42dc7545a3f0474d61516a284a8ce54}{m\+Firebase\+Auth}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class defines the \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Home}{Home}} Activity This Activity consists of all posts done by other users This activity contains navigation drawer to go to addposts,logout and my posts activities 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a4932a7dae18e16ed815cea4b6824bb6a}\label{classcom_1_1example_1_1splitfare_1_1Home_a4932a7dae18e16ed815cea4b6824bb6a}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!onBackPressed@{onBackPressed}}
+\index{onBackPressed@{onBackPressed}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{onBackPressed()}{onBackPressed()}}
+{\footnotesize\ttfamily void com.\+example.\+splitfare.\+Home.\+on\+Back\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Method defining Action to be taken when back button is pressed. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a85bb057f0e61463a3245aae61c527522}\label{classcom_1_1example_1_1splitfare_1_1Home_a85bb057f0e61463a3245aae61c527522}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{onCreate()}{onCreate()}}
+{\footnotesize\ttfamily void com.\+example.\+splitfare.\+Home.\+on\+Create (\begin{DoxyParamCaption}\item[{Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a25182f5bfd430e51728a879d7c25af89}\label{classcom_1_1example_1_1splitfare_1_1Home_a25182f5bfd430e51728a879d7c25af89}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!onNavigationItemSelected@{onNavigationItemSelected}}
+\index{onNavigationItemSelected@{onNavigationItemSelected}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{onNavigationItemSelected()}{onNavigationItemSelected()}}
+{\footnotesize\ttfamily boolean com.\+example.\+splitfare.\+Home.\+on\+Navigation\+Item\+Selected (\begin{DoxyParamCaption}\item[{@Non\+Null Menu\+Item}]{menu\+Item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a880726487fa18ca5d3b625a5f320e30c}\label{classcom_1_1example_1_1splitfare_1_1Home_a880726487fa18ca5d3b625a5f320e30c}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!onStart@{onStart}}
+\index{onStart@{onStart}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{onStart()}{onStart()}}
+{\footnotesize\ttfamily void com.\+example.\+splitfare.\+Home.\+on\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_ad0eba56e270e4725dc1fa5cfd7dca21b}\label{classcom_1_1example_1_1splitfare_1_1Home_ad0eba56e270e4725dc1fa5cfd7dca21b}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!curuser@{curuser}}
+\index{curuser@{curuser}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{curuser}{curuser}}
+{\footnotesize\ttfamily Firebase\+User com.\+example.\+splitfare.\+Home.\+curuser\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_aece062154abc8b3dbb69edbee5c3064e}\label{classcom_1_1example_1_1splitfare_1_1Home_aece062154abc8b3dbb69edbee5c3064e}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!databaseposts@{databaseposts}}
+\index{databaseposts@{databaseposts}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{databaseposts}{databaseposts}}
+{\footnotesize\ttfamily Database\+Reference com.\+example.\+splitfare.\+Home.\+databaseposts\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a829d09d22bf12f8d7af5595c1dd59daf}\label{classcom_1_1example_1_1splitfare_1_1Home_a829d09d22bf12f8d7af5595c1dd59daf}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!databaseusers@{databaseusers}}
+\index{databaseusers@{databaseusers}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{databaseusers}{databaseusers}}
+{\footnotesize\ttfamily Database\+Reference com.\+example.\+splitfare.\+Home.\+databaseusers\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a0a399b1ff7c04fcd32c2241194df9314}\label{classcom_1_1example_1_1splitfare_1_1Home_a0a399b1ff7c04fcd32c2241194df9314}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!drawerLayout@{drawerLayout}}
+\index{drawerLayout@{drawerLayout}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{drawerLayout}{drawerLayout}}
+{\footnotesize\ttfamily Drawer\+Layout com.\+example.\+splitfare.\+Home.\+drawer\+Layout\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_af010938a9faa4147ed7ea105a81c0c9d}\label{classcom_1_1example_1_1splitfare_1_1Home_af010938a9faa4147ed7ea105a81c0c9d}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!listViewPosts@{listViewPosts}}
+\index{listViewPosts@{listViewPosts}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{listViewPosts}{listViewPosts}}
+{\footnotesize\ttfamily List\+View com.\+example.\+splitfare.\+Home.\+list\+View\+Posts\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a5814eb786f3c15b745d91802a2d5d839}\label{classcom_1_1example_1_1splitfare_1_1Home_a5814eb786f3c15b745d91802a2d5d839}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!mAuthStateListener@{mAuthStateListener}}
+\index{mAuthStateListener@{mAuthStateListener}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{mAuthStateListener}{mAuthStateListener}}
+{\footnotesize\ttfamily Firebase\+Auth.\+Auth\+State\+Listener com.\+example.\+splitfare.\+Home.\+m\+Auth\+State\+Listener\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_ab42dc7545a3f0474d61516a284a8ce54}\label{classcom_1_1example_1_1splitfare_1_1Home_ab42dc7545a3f0474d61516a284a8ce54}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!mFirebaseAuth@{mFirebaseAuth}}
+\index{mFirebaseAuth@{mFirebaseAuth}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{mFirebaseAuth}{mFirebaseAuth}}
+{\footnotesize\ttfamily Firebase\+Auth com.\+example.\+splitfare.\+Home.\+m\+Firebase\+Auth\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_a6a16393bff96604fa06deb0482b1f345}\label{classcom_1_1example_1_1splitfare_1_1Home_a6a16393bff96604fa06deb0482b1f345}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!navigationView@{navigationView}}
+\index{navigationView@{navigationView}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{navigationView}{navigationView}}
+{\footnotesize\ttfamily Navigation\+View com.\+example.\+splitfare.\+Home.\+navigation\+View\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_ab1bde32f3ad2ddbc193a73312c7ea7e4}\label{classcom_1_1example_1_1splitfare_1_1Home_ab1bde32f3ad2ddbc193a73312c7ea7e4}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!posts@{posts}}
+\index{posts@{posts}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{posts}{posts}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Post}{Post}}$>$ com.\+example.\+splitfare.\+Home.\+posts\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_af9f4c3f00225cdb2fc60d9e06b30821c}\label{classcom_1_1example_1_1splitfare_1_1Home_af9f4c3f00225cdb2fc60d9e06b30821c}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!toolbar@{toolbar}}
+\index{toolbar@{toolbar}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{toolbar}{toolbar}}
+{\footnotesize\ttfamily Toolbar com.\+example.\+splitfare.\+Home.\+toolbar\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Home_af0a83c5452cd3d53f829ea8e65596775}\label{classcom_1_1example_1_1splitfare_1_1Home_af0a83c5452cd3d53f829ea8e65596775}} 
+\index{com.example.splitfare.Home@{com.example.splitfare.Home}!users@{users}}
+\index{users@{users}!com.example.splitfare.Home@{com.example.splitfare.Home}}
+\doxysubsubsection{\texorpdfstring{users}{users}}
+{\footnotesize\ttfamily List$<$String$>$ com.\+example.\+splitfare.\+Home.\+users\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Home_8java}{Home.\+java}}\end{DoxyCompactItemize}

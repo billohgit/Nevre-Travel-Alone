@@ -1,0 +1,248 @@
+\hypertarget{classcom_1_1example_1_1splitfare_1_1Comment}{}\doxysection{com.\+example.\+splitfare.\+Comment Class Reference}
+\label{classcom_1_1example_1_1splitfare_1_1Comment}\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+Inheritance diagram for com.\+example.\+splitfare.\+Comment\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1example_1_1splitfare_1_1Comment}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_aa05eba0751b8acf860542aa8b50d7993}{on\+Back\+Pressed}} ()
+\begin{DoxyCompactList}\small\item\em Method defining Action to be taken when back button is pressed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a6508d2e7b2972af4fe695f2c2e9d176a}{on\+Create}} (Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em On\+Create method is the first method that executes when a acitivity is opened. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a88d6e445ec56b9f0a4d549ce9b9d218d}{name}}
+\begin{DoxyCompactList}\small\item\em Text\+View variables for storing name,source,destination,mode of transport,mobile number of user. \end{DoxyCompactList}\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_ae5b4760356da756abc3a320ae8f56001}{source}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_afe1eadf8ac58abe36bcfabdefc982e2b}{dest}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_aaba16ad0f25e989fed2834c17de50396}{mot}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a2f23927650b9dbebead555a35d520c09}{nop}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_aa51716df7384c921b440281eb64152a4}{mob}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a8016ac5a01d8a9d335d6e8968cb8217a}{date}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a100eea1b2371a7013dbfcf3b1ba6cc57}{time}}
+\item 
+Text\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a8d666581dd773c0449a713e4823368e4}{uid}}
+\item 
+Button \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_adfbd06bf63c1772fc4f12b361cf614b9}{comm}}
+\begin{DoxyCompactList}\small\item\em Button variable for listening when user enters a comment. \end{DoxyCompactList}\item 
+Edit\+Text \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a394c1df61a803995dc2446fe52e075c0}{reply}}
+\begin{DoxyCompactList}\small\item\em Edit\+Text variable for user to enter the reply. \end{DoxyCompactList}\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_aff7811a10902da69419811a7d402f219}{commentlist}}
+\begin{DoxyCompactList}\small\item\em Array\+List which stores all comments on a particular post. \end{DoxyCompactList}\item 
+Array\+Adapter$<$ String $>$ \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a6952a83f189f9a520f815e93d2f1c4b4}{commadapter}}
+\begin{DoxyCompactList}\small\item\em Array\+Adapter which is used to display comments in List\+View. \end{DoxyCompactList}\item 
+List\+View \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_ace7beb76a12327e875128c86d9e239bf}{commlv}}
+\begin{DoxyCompactList}\small\item\em List\+View to display the comments of users. \end{DoxyCompactList}\item 
+Firebase\+User \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_aaffd5055768c09bd13eaa2261353623c}{user}}
+\begin{DoxyCompactList}\small\item\em Fiberbase user variable to extract information about user. \end{DoxyCompactList}\item 
+Toolbar \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a571a1a1870c1ca7a13ef30fe2d7c9798}{toolbar}}
+\begin{DoxyCompactList}\small\item\em Toolbar variable to display toolbar at top. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Database\+Reference \mbox{\hyperlink{classcom_1_1example_1_1splitfare_1_1Comment_a29e0c06f7f0705870b1eaf2840494e63}{databaseposts}}
+\begin{DoxyCompactList}\small\item\em Database variable for storing Firebase Database Reference. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class defines what has to be done when user enters a comment to a post This activity is invoked when user clicks to open a particular post User replies to a post will be stored on to the database 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_aa05eba0751b8acf860542aa8b50d7993}\label{classcom_1_1example_1_1splitfare_1_1Comment_aa05eba0751b8acf860542aa8b50d7993}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!onBackPressed@{onBackPressed}}
+\index{onBackPressed@{onBackPressed}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{onBackPressed()}{onBackPressed()}}
+{\footnotesize\ttfamily void com.\+example.\+splitfare.\+Comment.\+on\+Back\+Pressed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Method defining Action to be taken when back button is pressed. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a6508d2e7b2972af4fe695f2c2e9d176a}\label{classcom_1_1example_1_1splitfare_1_1Comment_a6508d2e7b2972af4fe695f2c2e9d176a}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{onCreate()}{onCreate()}}
+{\footnotesize\ttfamily void com.\+example.\+splitfare.\+Comment.\+on\+Create (\begin{DoxyParamCaption}\item[{Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+On\+Create method is the first method that executes when a acitivity is opened. 
+
+Setting layout for the activity
+
+Setting Toolbar layout and back button for it
+
+Extracting the post object which has been passed to this activity
+
+Assiging id elements to all the variables mentioned above
+
+Getting posts instance from the firebase database
+
+Changing values of all edit\+Text Variables
+
+Getting the list of comments for this particular post
+
+Setting adapter for listview
+
+Dispalying updated values in the list\+View
+
+On\+C\+Lick Listener for taking action when user enters the comment
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_adfbd06bf63c1772fc4f12b361cf614b9}\label{classcom_1_1example_1_1splitfare_1_1Comment_adfbd06bf63c1772fc4f12b361cf614b9}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!comm@{comm}}
+\index{comm@{comm}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{comm}{comm}}
+{\footnotesize\ttfamily Button com.\+example.\+splitfare.\+Comment.\+comm\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Button variable for listening when user enters a comment. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a6952a83f189f9a520f815e93d2f1c4b4}\label{classcom_1_1example_1_1splitfare_1_1Comment_a6952a83f189f9a520f815e93d2f1c4b4}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!commadapter@{commadapter}}
+\index{commadapter@{commadapter}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{commadapter}{commadapter}}
+{\footnotesize\ttfamily Array\+Adapter$<$String$>$ com.\+example.\+splitfare.\+Comment.\+commadapter\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Array\+Adapter which is used to display comments in List\+View. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_aff7811a10902da69419811a7d402f219}\label{classcom_1_1example_1_1splitfare_1_1Comment_aff7811a10902da69419811a7d402f219}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!commentlist@{commentlist}}
+\index{commentlist@{commentlist}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{commentlist}{commentlist}}
+{\footnotesize\ttfamily Array\+List$<$String$>$ com.\+example.\+splitfare.\+Comment.\+commentlist\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Array\+List which stores all comments on a particular post. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_ace7beb76a12327e875128c86d9e239bf}\label{classcom_1_1example_1_1splitfare_1_1Comment_ace7beb76a12327e875128c86d9e239bf}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!commlv@{commlv}}
+\index{commlv@{commlv}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{commlv}{commlv}}
+{\footnotesize\ttfamily List\+View com.\+example.\+splitfare.\+Comment.\+commlv\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+List\+View to display the comments of users. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a29e0c06f7f0705870b1eaf2840494e63}\label{classcom_1_1example_1_1splitfare_1_1Comment_a29e0c06f7f0705870b1eaf2840494e63}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!databaseposts@{databaseposts}}
+\index{databaseposts@{databaseposts}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{databaseposts}{databaseposts}}
+{\footnotesize\ttfamily Database\+Reference com.\+example.\+splitfare.\+Comment.\+databaseposts\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Database variable for storing Firebase Database Reference. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a8016ac5a01d8a9d335d6e8968cb8217a}\label{classcom_1_1example_1_1splitfare_1_1Comment_a8016ac5a01d8a9d335d6e8968cb8217a}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!date@{date}}
+\index{date@{date}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+date\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_afe1eadf8ac58abe36bcfabdefc982e2b}\label{classcom_1_1example_1_1splitfare_1_1Comment_afe1eadf8ac58abe36bcfabdefc982e2b}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!dest@{dest}}
+\index{dest@{dest}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{dest}{dest}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+dest\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_aa51716df7384c921b440281eb64152a4}\label{classcom_1_1example_1_1splitfare_1_1Comment_aa51716df7384c921b440281eb64152a4}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!mob@{mob}}
+\index{mob@{mob}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{mob}{mob}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+mob\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_aaba16ad0f25e989fed2834c17de50396}\label{classcom_1_1example_1_1splitfare_1_1Comment_aaba16ad0f25e989fed2834c17de50396}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!mot@{mot}}
+\index{mot@{mot}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{mot}{mot}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+mot\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a88d6e445ec56b9f0a4d549ce9b9d218d}\label{classcom_1_1example_1_1splitfare_1_1Comment_a88d6e445ec56b9f0a4d549ce9b9d218d}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!name@{name}}
+\index{name@{name}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+name\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Text\+View variables for storing name,source,destination,mode of transport,mobile number of user. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a2f23927650b9dbebead555a35d520c09}\label{classcom_1_1example_1_1splitfare_1_1Comment_a2f23927650b9dbebead555a35d520c09}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!nop@{nop}}
+\index{nop@{nop}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{nop}{nop}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+nop\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a394c1df61a803995dc2446fe52e075c0}\label{classcom_1_1example_1_1splitfare_1_1Comment_a394c1df61a803995dc2446fe52e075c0}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!reply@{reply}}
+\index{reply@{reply}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{reply}{reply}}
+{\footnotesize\ttfamily Edit\+Text com.\+example.\+splitfare.\+Comment.\+reply\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Edit\+Text variable for user to enter the reply. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_ae5b4760356da756abc3a320ae8f56001}\label{classcom_1_1example_1_1splitfare_1_1Comment_ae5b4760356da756abc3a320ae8f56001}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!source@{source}}
+\index{source@{source}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{source}{source}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+source\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a100eea1b2371a7013dbfcf3b1ba6cc57}\label{classcom_1_1example_1_1splitfare_1_1Comment_a100eea1b2371a7013dbfcf3b1ba6cc57}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!time@{time}}
+\index{time@{time}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{time}{time}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+time\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a571a1a1870c1ca7a13ef30fe2d7c9798}\label{classcom_1_1example_1_1splitfare_1_1Comment_a571a1a1870c1ca7a13ef30fe2d7c9798}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!toolbar@{toolbar}}
+\index{toolbar@{toolbar}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{toolbar}{toolbar}}
+{\footnotesize\ttfamily Toolbar com.\+example.\+splitfare.\+Comment.\+toolbar\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Toolbar variable to display toolbar at top. 
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_a8d666581dd773c0449a713e4823368e4}\label{classcom_1_1example_1_1splitfare_1_1Comment_a8d666581dd773c0449a713e4823368e4}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!uid@{uid}}
+\index{uid@{uid}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{uid}{uid}}
+{\footnotesize\ttfamily Text\+View com.\+example.\+splitfare.\+Comment.\+uid\hspace{0.3cm}{\ttfamily [package]}}
+
+\mbox{\Hypertarget{classcom_1_1example_1_1splitfare_1_1Comment_aaffd5055768c09bd13eaa2261353623c}\label{classcom_1_1example_1_1splitfare_1_1Comment_aaffd5055768c09bd13eaa2261353623c}} 
+\index{com.example.splitfare.Comment@{com.example.splitfare.Comment}!user@{user}}
+\index{user@{user}!com.example.splitfare.Comment@{com.example.splitfare.Comment}}
+\doxysubsubsection{\texorpdfstring{user}{user}}
+{\footnotesize\ttfamily Firebase\+User com.\+example.\+splitfare.\+Comment.\+user\hspace{0.3cm}{\ttfamily [package]}}
+
+
+
+Fiberbase user variable to extract information about user. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Comment_8java}{Comment.\+java}}\end{DoxyCompactItemize}

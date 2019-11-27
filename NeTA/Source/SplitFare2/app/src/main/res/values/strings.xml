@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NeTA</string>
+    <string name="logout">Logout</string>
+    <string name="addpost">Addpost</string>
+    <string name="myposts">Myposts</string>
+    <string name="advanced_option">Advanced Options</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+</resources>

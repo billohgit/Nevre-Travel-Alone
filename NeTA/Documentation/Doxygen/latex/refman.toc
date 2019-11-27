@@ -1,0 +1,185 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Package com}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example}{9}{section.5.2}
+\contentsline {section}{\numberline {5.3}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare}{9}{section.5.3}
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Addposta\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity Class Reference}{11}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{12}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{12}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}onBackPressed()}{12}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}onCreate()}{12}{subsubsection.6.1.2.2}
+\contentsline {subsection}{\numberline {6.1.3}Member Data Documentation}{13}{subsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.3.1}btnaddPost}{13}{subsubsection.6.1.3.1}
+\contentsline {subsubsection}{\numberline {6.1.3.2}btnDate}{13}{subsubsection.6.1.3.2}
+\contentsline {subsubsection}{\numberline {6.1.3.3}btnTime}{13}{subsubsection.6.1.3.3}
+\contentsline {subsubsection}{\numberline {6.1.3.4}cal}{13}{subsubsection.6.1.3.4}
+\contentsline {subsubsection}{\numberline {6.1.3.5}curHour}{13}{subsubsection.6.1.3.5}
+\contentsline {subsubsection}{\numberline {6.1.3.6}curMin}{13}{subsubsection.6.1.3.6}
+\contentsline {subsubsection}{\numberline {6.1.3.7}databaseposts}{14}{subsubsection.6.1.3.7}
+\contentsline {subsubsection}{\numberline {6.1.3.8}Date}{14}{subsubsection.6.1.3.8}
+\contentsline {subsubsection}{\numberline {6.1.3.9}destination}{14}{subsubsection.6.1.3.9}
+\contentsline {subsubsection}{\numberline {6.1.3.10}mDateSetListener}{14}{subsubsection.6.1.3.10}
+\contentsline {subsubsection}{\numberline {6.1.3.11}Mobile}{14}{subsubsection.6.1.3.11}
+\contentsline {subsubsection}{\numberline {6.1.3.12}MoT}{14}{subsubsection.6.1.3.12}
+\contentsline {subsubsection}{\numberline {6.1.3.13}name}{14}{subsubsection.6.1.3.13}
+\contentsline {subsubsection}{\numberline {6.1.3.14}persons}{15}{subsubsection.6.1.3.14}
+\contentsline {subsubsection}{\numberline {6.1.3.15}post}{15}{subsubsection.6.1.3.15}
+\contentsline {subsubsection}{\numberline {6.1.3.16}source}{15}{subsubsection.6.1.3.16}
+\contentsline {subsubsection}{\numberline {6.1.3.17}Time}{15}{subsubsection.6.1.3.17}
+\contentsline {subsubsection}{\numberline {6.1.3.18}toolbar}{15}{subsubsection.6.1.3.18}
+\contentsline {subsubsection}{\numberline {6.1.3.19}user}{15}{subsubsection.6.1.3.19}
+\contentsline {section}{\numberline {6.2}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Comment Class Reference}{16}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{17}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{17}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}onBackPressed()}{17}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}onCreate()}{17}{subsubsection.6.2.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Member Data Documentation}{18}{subsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3.1}comm}{18}{subsubsection.6.2.3.1}
+\contentsline {subsubsection}{\numberline {6.2.3.2}commadapter}{18}{subsubsection.6.2.3.2}
+\contentsline {subsubsection}{\numberline {6.2.3.3}commentlist}{18}{subsubsection.6.2.3.3}
+\contentsline {subsubsection}{\numberline {6.2.3.4}commlv}{18}{subsubsection.6.2.3.4}
+\contentsline {subsubsection}{\numberline {6.2.3.5}databaseposts}{18}{subsubsection.6.2.3.5}
+\contentsline {subsubsection}{\numberline {6.2.3.6}date}{18}{subsubsection.6.2.3.6}
+\contentsline {subsubsection}{\numberline {6.2.3.7}dest}{19}{subsubsection.6.2.3.7}
+\contentsline {subsubsection}{\numberline {6.2.3.8}mob}{19}{subsubsection.6.2.3.8}
+\contentsline {subsubsection}{\numberline {6.2.3.9}mot}{19}{subsubsection.6.2.3.9}
+\contentsline {subsubsection}{\numberline {6.2.3.10}name}{19}{subsubsection.6.2.3.10}
+\contentsline {subsubsection}{\numberline {6.2.3.11}nop}{19}{subsubsection.6.2.3.11}
+\contentsline {subsubsection}{\numberline {6.2.3.12}reply}{19}{subsubsection.6.2.3.12}
+\contentsline {subsubsection}{\numberline {6.2.3.13}source}{19}{subsubsection.6.2.3.13}
+\contentsline {subsubsection}{\numberline {6.2.3.14}time}{20}{subsubsection.6.2.3.14}
+\contentsline {subsubsection}{\numberline {6.2.3.15}toolbar}{20}{subsubsection.6.2.3.15}
+\contentsline {subsubsection}{\numberline {6.2.3.16}uid}{20}{subsubsection.6.2.3.16}
+\contentsline {subsubsection}{\numberline {6.2.3.17}user}{20}{subsubsection.6.2.3.17}
+\contentsline {section}{\numberline {6.3}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Home Class Reference}{20}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{21}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{21}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}onBackPressed()}{21}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}onCreate()}{21}{subsubsection.6.3.2.2}
+\contentsline {subsubsection}{\numberline {6.3.2.3}onNavigationItemSelected()}{22}{subsubsection.6.3.2.3}
+\contentsline {subsubsection}{\numberline {6.3.2.4}onStart()}{22}{subsubsection.6.3.2.4}
+\contentsline {subsection}{\numberline {6.3.3}Member Data Documentation}{22}{subsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.1}curuser}{22}{subsubsection.6.3.3.1}
+\contentsline {subsubsection}{\numberline {6.3.3.2}databaseposts}{22}{subsubsection.6.3.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3.3}databaseusers}{22}{subsubsection.6.3.3.3}
+\contentsline {subsubsection}{\numberline {6.3.3.4}drawerLayout}{22}{subsubsection.6.3.3.4}
+\contentsline {subsubsection}{\numberline {6.3.3.5}listViewPosts}{22}{subsubsection.6.3.3.5}
+\contentsline {subsubsection}{\numberline {6.3.3.6}mAuthStateListener}{23}{subsubsection.6.3.3.6}
+\contentsline {subsubsection}{\numberline {6.3.3.7}mFirebaseAuth}{23}{subsubsection.6.3.3.7}
+\contentsline {subsubsection}{\numberline {6.3.3.8}navigationView}{23}{subsubsection.6.3.3.8}
+\contentsline {subsubsection}{\numberline {6.3.3.9}posts}{23}{subsubsection.6.3.3.9}
+\contentsline {subsubsection}{\numberline {6.3.3.10}toolbar}{23}{subsubsection.6.3.3.10}
+\contentsline {subsubsection}{\numberline {6.3.3.11}users}{23}{subsubsection.6.3.3.11}
+\contentsline {section}{\numberline {6.4}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Login\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity Class Reference}{23}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{24}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Member Function Documentation}{24}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}onBackPressed()}{24}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}onCreate()}{24}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}onStart()}{25}{subsubsection.6.4.2.3}
+\contentsline {subsection}{\numberline {6.4.3}Member Data Documentation}{25}{subsection.6.4.3}
+\contentsline {subsubsection}{\numberline {6.4.3.1}btnSignIn}{25}{subsubsection.6.4.3.1}
+\contentsline {subsubsection}{\numberline {6.4.3.2}emailId}{25}{subsubsection.6.4.3.2}
+\contentsline {subsubsection}{\numberline {6.4.3.3}mAuthStateListener}{25}{subsubsection.6.4.3.3}
+\contentsline {subsubsection}{\numberline {6.4.3.4}mFirebaseAuth}{25}{subsubsection.6.4.3.4}
+\contentsline {subsubsection}{\numberline {6.4.3.5}password}{25}{subsubsection.6.4.3.5}
+\contentsline {subsubsection}{\numberline {6.4.3.6}tvSignUp}{25}{subsubsection.6.4.3.6}
+\contentsline {section}{\numberline {6.5}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Main\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity Class Reference}{26}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{26}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{26}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}onBackPressed()}{26}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}onCreate()}{27}{subsubsection.6.5.2.2}
+\contentsline {subsection}{\numberline {6.5.3}Member Data Documentation}{27}{subsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.3.1}btnSignUp}{27}{subsubsection.6.5.3.1}
+\contentsline {subsubsection}{\numberline {6.5.3.2}databaseposts}{27}{subsubsection.6.5.3.2}
+\contentsline {subsubsection}{\numberline {6.5.3.3}emailId}{27}{subsubsection.6.5.3.3}
+\contentsline {subsubsection}{\numberline {6.5.3.4}mFirebaseAuth}{27}{subsubsection.6.5.3.4}
+\contentsline {subsubsection}{\numberline {6.5.3.5}password}{27}{subsubsection.6.5.3.5}
+\contentsline {subsubsection}{\numberline {6.5.3.6}tvSignIn}{27}{subsubsection.6.5.3.6}
+\contentsline {subsubsection}{\numberline {6.5.3.7}uid}{28}{subsubsection.6.5.3.7}
+\contentsline {subsubsection}{\numberline {6.5.3.8}user}{28}{subsubsection.6.5.3.8}
+\contentsline {section}{\numberline {6.6}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}myposts Class Reference}{28}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{28}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Member Function Documentation}{29}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}onBackPressed()}{29}{subsubsection.6.6.2.1}
+\contentsline {subsubsection}{\numberline {6.6.2.2}onCreate()}{29}{subsubsection.6.6.2.2}
+\contentsline {subsection}{\numberline {6.6.3}Member Data Documentation}{29}{subsection.6.6.3}
+\contentsline {subsubsection}{\numberline {6.6.3.1}curuser}{29}{subsubsection.6.6.3.1}
+\contentsline {subsubsection}{\numberline {6.6.3.2}databasemyposts}{29}{subsubsection.6.6.3.2}
+\contentsline {subsubsection}{\numberline {6.6.3.3}listViewmyPosts}{29}{subsubsection.6.6.3.3}
+\contentsline {subsubsection}{\numberline {6.6.3.4}my\_posts}{29}{subsubsection.6.6.3.4}
+\contentsline {subsubsection}{\numberline {6.6.3.5}toolbar}{30}{subsubsection.6.6.3.5}
+\contentsline {section}{\numberline {6.7}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Post Class Reference}{30}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{31}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{31}{subsection.6.7.2}
+\contentsline {subsubsection}{\numberline {6.7.2.1}Post()}{31}{subsubsection.6.7.2.1}
+\contentsline {subsection}{\numberline {6.7.3}Member Function Documentation}{31}{subsection.6.7.3}
+\contentsline {subsubsection}{\numberline {6.7.3.1}getDate()}{31}{subsubsection.6.7.3.1}
+\contentsline {subsubsection}{\numberline {6.7.3.2}getDestination()}{31}{subsubsection.6.7.3.2}
+\contentsline {subsubsection}{\numberline {6.7.3.3}getID()}{32}{subsubsection.6.7.3.3}
+\contentsline {subsubsection}{\numberline {6.7.3.4}getList()}{32}{subsubsection.6.7.3.4}
+\contentsline {subsubsection}{\numberline {6.7.3.5}getMobile()}{32}{subsubsection.6.7.3.5}
+\contentsline {subsubsection}{\numberline {6.7.3.6}getMoT()}{32}{subsubsection.6.7.3.6}
+\contentsline {subsubsection}{\numberline {6.7.3.7}getName()}{32}{subsubsection.6.7.3.7}
+\contentsline {subsubsection}{\numberline {6.7.3.8}getPersons()}{32}{subsubsection.6.7.3.8}
+\contentsline {subsubsection}{\numberline {6.7.3.9}getPid()}{32}{subsubsection.6.7.3.9}
+\contentsline {subsubsection}{\numberline {6.7.3.10}getSource()}{32}{subsubsection.6.7.3.10}
+\contentsline {subsubsection}{\numberline {6.7.3.11}getTime()}{33}{subsubsection.6.7.3.11}
+\contentsline {subsubsection}{\numberline {6.7.3.12}getUid()}{33}{subsubsection.6.7.3.12}
+\contentsline {subsubsection}{\numberline {6.7.3.13}getUseremail()}{33}{subsubsection.6.7.3.13}
+\contentsline {subsubsection}{\numberline {6.7.3.14}setDate()}{33}{subsubsection.6.7.3.14}
+\contentsline {subsubsection}{\numberline {6.7.3.15}setDestination()}{33}{subsubsection.6.7.3.15}
+\contentsline {subsubsection}{\numberline {6.7.3.16}setID()}{33}{subsubsection.6.7.3.16}
+\contentsline {subsubsection}{\numberline {6.7.3.17}setlist()}{33}{subsubsection.6.7.3.17}
+\contentsline {subsubsection}{\numberline {6.7.3.18}setMobile()}{34}{subsubsection.6.7.3.18}
+\contentsline {subsubsection}{\numberline {6.7.3.19}setMoT()}{34}{subsubsection.6.7.3.19}
+\contentsline {subsubsection}{\numberline {6.7.3.20}setName()}{34}{subsubsection.6.7.3.20}
+\contentsline {subsubsection}{\numberline {6.7.3.21}setPersons()}{34}{subsubsection.6.7.3.21}
+\contentsline {subsubsection}{\numberline {6.7.3.22}setPid()}{34}{subsubsection.6.7.3.22}
+\contentsline {subsubsection}{\numberline {6.7.3.23}setSource()}{34}{subsubsection.6.7.3.23}
+\contentsline {subsubsection}{\numberline {6.7.3.24}setTime()}{34}{subsubsection.6.7.3.24}
+\contentsline {subsubsection}{\numberline {6.7.3.25}setUid()}{35}{subsubsection.6.7.3.25}
+\contentsline {subsubsection}{\numberline {6.7.3.26}setUseremail()}{35}{subsubsection.6.7.3.26}
+\contentsline {subsection}{\numberline {6.7.4}Member Data Documentation}{35}{subsection.6.7.4}
+\contentsline {subsubsection}{\numberline {6.7.4.1}comments}{35}{subsubsection.6.7.4.1}
+\contentsline {subsubsection}{\numberline {6.7.4.2}Date}{35}{subsubsection.6.7.4.2}
+\contentsline {subsubsection}{\numberline {6.7.4.3}destination}{35}{subsubsection.6.7.4.3}
+\contentsline {subsubsection}{\numberline {6.7.4.4}Mobile}{35}{subsubsection.6.7.4.4}
+\contentsline {subsubsection}{\numberline {6.7.4.5}MoT}{35}{subsubsection.6.7.4.5}
+\contentsline {subsubsection}{\numberline {6.7.4.6}name}{36}{subsubsection.6.7.4.6}
+\contentsline {subsubsection}{\numberline {6.7.4.7}persons}{36}{subsubsection.6.7.4.7}
+\contentsline {subsubsection}{\numberline {6.7.4.8}Pid}{36}{subsubsection.6.7.4.8}
+\contentsline {subsubsection}{\numberline {6.7.4.9}source}{36}{subsubsection.6.7.4.9}
+\contentsline {subsubsection}{\numberline {6.7.4.10}Time}{36}{subsubsection.6.7.4.10}
+\contentsline {subsubsection}{\numberline {6.7.4.11}Uid}{36}{subsubsection.6.7.4.11}
+\contentsline {subsubsection}{\numberline {6.7.4.12}useremail}{36}{subsubsection.6.7.4.12}
+\contentsline {section}{\numberline {6.8}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}splitfare.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Post\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List Class Reference}{37}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{37}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}Constructor \& Destructor Documentation}{37}{subsection.6.8.2}
+\contentsline {subsubsection}{\numberline {6.8.2.1}PostList()}{37}{subsubsection.6.8.2.1}
+\contentsline {subsection}{\numberline {6.8.3}Member Function Documentation}{37}{subsection.6.8.3}
+\contentsline {subsubsection}{\numberline {6.8.3.1}getView()}{38}{subsubsection.6.8.3.1}
+\contentsline {subsection}{\numberline {6.8.4}Member Data Documentation}{38}{subsection.6.8.4}
+\contentsline {subsubsection}{\numberline {6.8.4.1}bclr}{38}{subsubsection.6.8.4.1}
+\contentsline {subsubsection}{\numberline {6.8.4.2}context}{38}{subsubsection.6.8.4.2}
+\contentsline {subsubsection}{\numberline {6.8.4.3}count}{38}{subsubsection.6.8.4.3}
+\contentsline {subsubsection}{\numberline {6.8.4.4}posts}{38}{subsubsection.6.8.4.4}
+\contentsline {subsubsection}{\numberline {6.8.4.5}tclr}{38}{subsubsection.6.8.4.5}
+\contentsline {chapter}{\numberline {7}File Documentation}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}Addposta\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{39}{section.7.1}
+\contentsline {section}{\numberline {7.2}Comment.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{39}{section.7.2}
+\contentsline {section}{\numberline {7.3}Home.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{39}{section.7.3}
+\contentsline {section}{\numberline {7.4}Login\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{40}{section.7.4}
+\contentsline {section}{\numberline {7.5}Main\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{40}{section.7.5}
+\contentsline {section}{\numberline {7.6}myposts.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{40}{section.7.6}
+\contentsline {section}{\numberline {7.7}Post.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{40}{section.7.7}
+\contentsline {section}{\numberline {7.8}Post\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}List.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{40}{section.7.8}
+\contentsline {chapter}{Index}{41}{section*.55}

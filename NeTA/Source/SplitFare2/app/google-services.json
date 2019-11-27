@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402367504125",
+    "firebase_url": "https://splitfare-cd2f2.firebaseio.com",
+    "project_id": "splitfare-cd2f2",
+    "storage_bucket": "splitfare-cd2f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402367504125:android:8fb3c3bf516f96afc5e894",
+        "android_client_info": {
+          "package_name": "com.example.splitfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402367504125-1s956j6g2bknsgr69c0j5sqv6b9bfrsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.splitfare",
+            "certificate_hash": "8bc021b7d404ba90ced311a3cea7464017b658e3"
+          }
+        },
+        {
+          "client_id": "402367504125-bb90hko9eo5mg9a6pud2r971vuefurt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_nQnd9WXo0L8IuFLI1c-ueW97uCUFOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402367504125-bb90hko9eo5mg9a6pud2r971vuefurt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
